@@ -1,0 +1,89 @@
+{
+  "author": "Spencer Kelly <spencermountain@gmail.com> (http://spencermounta.in)",
+  "name": "a_wall_map",
+  "description": "",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/spencermountain/a_wall_map.git"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+  },
+  "license": "MIT",
+  "dependencies": {
+    "abaculus": "*",
+    "mapnik": "*"
+  },
+
+  "eslintConfig": {
+    "env": {
+      "es6": true
+    },
+    "ecmaFeatures": {
+      "modules": true,
+      "jsx": true
+    },
+    "rules": {
+      "no-cond-assign": 2,
+      "no-var": 1,
+      "prefer-const": 0,
+      "no-extra-parens": 0,
+      "no-dupe-keys": 2,
+      "no-unreachable": 2,
+      "eqeqeq": 1,
+      "no-native-reassign": 2,
+      "no-redeclare": 2,
+      "radix": 1,
+      "indent": 0,
+      "quotes": [1, "single", "avoid-escape"],
+      "no-shadow": 2,
+      "no-unused-vars": 0,
+      "no-lonely-if": 1,
+      "no-use-before-define": 2,
+      "no-bitwise": 2,
+      "no-dupe-class-members": 2,
+      "guard-for-in": 1,
+      "consistent-return": 2,
+      "no-octal-escape": 2,
+      "no-constant-condition": 1,
+      "no-unused-expressions": 2
+    }
+  },
+
+  "esformatter": {
+    "plugins": [
+      "esformatter-quotes",
+      "esformatter-parseint",
+      "esformatter-braces",
+      "esformatter-semicolons"
+    ],
+    "quotes": {
+      "type": "single",
+      "avoidEscape": false
+    },
+    "whiteSpace": {
+      "before": {
+        "ParameterList": -1,
+        "ParameterComma": -1,
+        "FunctionDeclarationOpeningBrace": -1,
+        "FunctionDeclarationClosingBrace": -1,
+        "ForStatementExpressionOpening": -1
+      },
+      "after": {
+        "FunctionName": -1,
+        "ParameterComma": 1,
+        "FunctionReservedWord": -1,
+        "ParameterList": -1,
+        "FunctionDeclarationOpeningBrace": -1,
+        "PropertyName": -1
+      }
+    },
+    "lineBreak": {
+      "before": {
+        "EndOfFile": 1
+      }
+    }
+  }
+}
